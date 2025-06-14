@@ -23,22 +23,22 @@ function getInputValues() {
     return { number1, number2 };
 }
 
-document.getElementById('add').addEventListener('click', function() {
+document.getElementById('add').addEventListener('click', function () {
     const { number1, number2 } = getInputValues();
     document.getElementById('calculation-result').textContent = add(number1, number2);
 });
 
-document.getElementById('subtract').addEventListener('click', function() {
+document.getElementById('subtract').addEventListener('click', function () {
     const { number1, number2 } = getInputValues();
     document.getElementById('calculation-result').textContent = subtract(number1, number2);
 });
 
-document.getElementById('multiply').addEventListener('click', function() {
+document.getElementById('multiply').addEventListener('click', function () {
     const { number1, number2 } = getInputValues();
     document.getElementById('calculation-result').textContent = multiply(number1, number2);
 });
 
-document.getElementById('divide').addEventListener('click', function() {
+document.getElementById('divide').addEventListener('click', function () {
     const { number1, number2 } = getInputValues();
     document.getElementById('calculation-result').textContent = divide(number1, number2);
 });
